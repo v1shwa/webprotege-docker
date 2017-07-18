@@ -12,4 +12,4 @@ Lite-weight docker image for webprotege that runs on alpine.
 
         docker run -ti -d -p 9899:8080 --link mongo:mongo -v $(pwd)/protege_data:/data/webprotege --name protege v1shwa/webprotege
 
-- Done. You can now access the webprotege at [localhost:9899](http://localhost:9899/)
+- Done. You can now access the webprotege at [localhost:9899](http://localhost:9899/) 
